@@ -106,7 +106,7 @@ const Chat = () => {
             {openChat && (
                 <div className="fixed bottom-6 right-6 w-full max-w-sm md:max-w-md lg:max-w-lg h-96 bg-white shadow-lg rounded-lg flex flex-col border border-gray-200">
                     <div className="p-4 font-semibold border-b flex justify-between items-center">
-                        Welcome to Techwens Solutions
+                        Welcome to Silzila 
                         <button
                             onClick={() => {
                                 setOpenChat(false);
@@ -143,7 +143,7 @@ const Chat = () => {
                        
                         {loading && (
                             <div className="bg-gray-100 text-gray-800 p-3 rounded-lg text-sm max-w-[80%] mr-auto">
-                                <div className="text-xs opacity-70 mb-1">Techwens AI</div>
+                                <div className="text-xs opacity-70 mb-1">Silzila AI</div>
                                 <div className="flex items-center gap-1">
                                     <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
                                     <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
